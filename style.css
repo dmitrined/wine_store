@@ -3,8 +3,10 @@
 :root {
     --bg-color: #020204;
     --text-color: #f2f2f2;
-    --grey-color : #DFDFDF
+    --grey-color : #DFDFDF;
     --accent-color: #C7A17A;
+    --accent-color2: #A4815E;
+
 
 }
 html, body {
@@ -33,6 +35,7 @@ body {
         color: var(--text-color);
         text-decoration: none;
         transition: color 0.3s;
+        border-radius: 10px;
     }
 
     a:hover,
@@ -50,6 +53,29 @@ body {
 .main {
     flex: 1 1 auto;
 }
+
+.btn-warning {
+   background-color: var(--accent-color);
+   border-color: var(--accent-color);
+   color: var(--text-color);
+   transition: all 0.3s;
+   border-radius: 10px;
+
+}
+
+.btn-warning:hover {
+    background-color: var(--accent-color2);
+    border-color: var(--accent-color2);
+    color: var(--text-color);
+}
+
+.btn-outline-secondary {
+   color: var(--text-color);
+   transition: all 0.3s;
+   border-radius: 10px;
+
+}
+
 
 /* Header start */
 .header-top {
@@ -125,12 +151,15 @@ body {
     font-weight: 900;
     text-transform: uppercase;
     line-height: 1.44;
+    
+
     }
 
     .hero-section-content p {
         font-size: 18px;
         margin-bottom: 25px;
         margin-top: 15px;
+        color: var(--grey-color);
     }
 
 /* Hero section end*/
