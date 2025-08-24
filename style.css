@@ -60,6 +60,7 @@ body {
    color: var(--text-color);
    transition: all 0.3s;
    border-radius: 10px;
+   margin-right: 5px;
 
 }
 
