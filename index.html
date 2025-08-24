@@ -11,7 +11,7 @@
     <!-- Подключаем Font Awesome для иконок -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    <title>Document</title>
+    <title>Wine Store</title>
 </head>
 
 <body>
@@ -72,21 +72,27 @@
                             </ul>
                         </div>
                     </div>
+
                     <div class="header-icons">
-                         <!-- Иконка пользователя -->
-                    <a href="#" class="header-icon-link">
-                        <i class="fas fa-user header-icon"></i>
-                    </a>
-                    <!-- Иконка колокольчика -->
-                    <a href="#" class="header-icon-link">
-                        <i class="fas fa-bell header-icon"></i>
-                    </a>
-                    <!-- Иконка корзины -->
-                    <a href="#" class="header-icon-link">
-                       <i class="fa-solid fa-cart-arrow-down"></i>
-                    </a>
-                   
-                </div>
+                        <a href="#" class="header-icon-link">
+                            <i class="fas fa-user header-icon"></i>
+                        </a>
+                        <a href="#" class="header-icon-link mx-3">
+                            <i class="fas fa-bell header-icon"></i>
+                        </a>
+                        <div class="dropdown d-inline-block">
+                            <a href="#" class="header-icon-link" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-cart-arrow-down"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Warenkorb anzeigen</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Gespeicherte Artikel</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </nav>
 
@@ -99,10 +105,25 @@
         </main>
 
 
-        <footer class="footer">
-            footer
-
-        </footer>
+        <footer class="footer py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <div class="footer-contact-info">
+                    <p class="mb-1"><strong>Kontakt:</strong></p>
+                    <p class="mb-1">Email: <a href="mailto:info@fellbacher-weine.de">info@fellbacher-weine.de</a></p>
+                    <p class="mb-1">Telefon: <a href="tel:+497115788030">0711 57 88 03-0</a></p>
+                    <p class="mb-1">Adresse: 70734 Fellbach Kappelbergstraße 48</p>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <p class="col-md-6"><strong>Öffnungszeiten:</strong></p>
+                <p class="mb-1">Verkauf & Verkostung Mo – Sa 9.00 Uhr – 18.30 Uhr</p>
+                <p class="mb-1">Bürozeiten Mo – Fr 8.00 Uhr – 17.00 Uhr</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
     </div>
 

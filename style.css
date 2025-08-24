@@ -49,7 +49,7 @@ body {
     flex: 1 1 auto;
 }
 
-/* Header */
+/* Header start */
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -102,7 +102,21 @@ body {
     transition: all 0.3s;
 }
 
+.header-icons li {
+    margin: 50px !important;
+}
+
+/* Header end*/
 
 
-/* Header */
 
+
+
+
+/*Footer start*/
+.footer {
+     border-top: 1px solid #323230;
+     border-bottom: 1px solid #323230;
+
+}
+/*Footer end*/
