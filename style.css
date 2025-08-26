@@ -96,8 +96,7 @@ body {
 }
 
 .header img {
-    border-radius: 50%;
-   max-width: 58px;
+   max-width: 130px;
 }
     
 .header nav {
@@ -129,7 +128,7 @@ body {
 }
 
 .navbar-brand:hover img {
-    border: 2px solid var(--accent-color);
+    max-width: 120px;
     transition: all 0.3s;
 }
 
