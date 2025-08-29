@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Gloria Ferrer Sonoma Brut",
+    "price": 23.99,
+    "volume": "750 mL",
+    "producer": "Gloria Ferrer",
+    "rating": 4.0,
+    "image": "https://i.imgur.com/GzFz0fG.png"
+  },
+  {
+    "id": 1,
+    "name": "Gloria Ferrer Sonoma Brut",
+    "price": 23.99,
+    "volume": "750 mL",
+    "producer": "Gloria Ferrer",
+    "rating": 4.0,
+    "image": "https://i.imgur.com/GzFz0fG.png"
+  }
+]
