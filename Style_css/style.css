@@ -8,14 +8,15 @@
     --accent-color2: #A4815E;
 }
 
-html, body {
-    height: 100%;
-}
-
-* {
+/* Base Styles & Resets */
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
@@ -33,8 +34,7 @@ img {
 a {
     color: var(--text-color);
     text-decoration: none;
-    transition: color 0.3s;
-    border-radius: 10px;
+    transition: color 0.3s ease-in-out;
 }
 
 a:hover,
@@ -43,6 +43,7 @@ a.active {
     color: var(--accent-color);
 }
 
+/* Layout */
 .wrapper {
     min-height: 100%;
     display: flex;
@@ -53,11 +54,12 @@ a.active {
     flex: 1 1 auto;
 }
 
+/* Buttons */
 .btn-warning {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     color: var(--text-color);
-    transition: all 0.3s;
+    transition: all 0.3s ease-in-out;
     border-radius: 10px;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -71,16 +73,17 @@ a.active {
 
 .btn-outline-secondary {
     color: var(--text-color);
-    transition: all 0.3s;
+    transition: all 0.3s ease-in-out;
     border-radius: 10px;
 }
 
+/* Header */
 .header-top {
     display: flex;
     justify-content: space-between;
 }
 
-.languages a, .header-phone a {
+.languages a, .header-phone {
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
@@ -97,7 +100,7 @@ a.active {
     padding-bottom: 20px;
     border-top: 1px solid #323230;
     border-bottom: 1px solid #323230;
-    background-color: var(--bg-color) !important;
+    background-color: var(--bg-color);
     position: relative;
 }
 
@@ -117,14 +120,16 @@ a.active {
 
 .navbar-brand:hover img {
     max-width: 120px;
-    transition: all 0.3s;
+    transition: all 0.3s ease-in-out;
 }
 
 .header-icons li {
     margin: 50px !important;
 }
 
+/* Offcanvas */
 .offcanvas.offcanvas-start {
+    height: auto !important;
     width: 30% !important;
 }
 
@@ -134,7 +139,7 @@ a.active {
     }
 }
 
-
+/* Hero Section */
 .hero-section {
     background: url(../images/hero_img.jpg) no-repeat 70% center;
     background-size: cover;
@@ -160,11 +165,13 @@ a.active {
     color: var(--grey-color);
 }
 
+/* Footer */
 .footer {
     border-top: 1px solid #323230;
     border-bottom: 1px solid #323230;
 }
 
+/* About Us Section */
 .about-us-section {
     color: var(--text-color);
     background-color: var(--bg-color);
@@ -196,3 +203,22 @@ a.active {
     line-height: 1.6;
 }
 
+/* Image Container */
+.image-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
