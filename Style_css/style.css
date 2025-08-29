@@ -124,6 +124,10 @@ a.active {
     margin: 50px !important;
 }
 
+.offcanvas {
+    width: 30% !important;
+}
+
 .hero-section {
     background: url(../images/hero_img.jpg) no-repeat 70% center;
     background-size: cover;
@@ -184,3 +188,4 @@ a.active {
     color: var(--grey-color);
     line-height: 1.6;
 }
+

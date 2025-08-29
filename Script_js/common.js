@@ -6,21 +6,7 @@ async function loadContent(elementSelector, url) {
         }
         const html = await response.text();
         document.querySelector(elementSelector).innerHTML = html;
-
-        const currentPath = window.location.pathname.split('/').pop();
-        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-
-        navLinks.forEach(link => {
-            const linkPath = link.getAttribute('href');
-            if (linkPath === currentPath) {
-                link.classList.add('active');
-                link.setAttribute('aria-current', 'page');
-            } else {
-                link.classList.remove('active');
-                link.removeAttribute('aria-current');
-            }
-        });
-
+        console.log(`Content from ${url} loaded successfully.`);
     } catch (error) {
         console.error(error);
     }
