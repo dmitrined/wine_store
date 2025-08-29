@@ -1,4 +1,4 @@
-// Функция для загрузки контента
+// Функция для загрузки и вставки HTML-контента из внешнего файла
 async function loadContent(elementSelector, url) {
     try {
         const response = await fetch(url);
@@ -7,36 +7,20 @@ async function loadContent(elementSelector, url) {
         }
         const html = await response.text();
         document.querySelector(elementSelector).innerHTML = html;
+        console.log(`Content from ${url} loaded successfully.`);
     } catch (error) {
         console.error(error);
     }
 }
 
-// Функция для установки ширины offcanvas
-function setOffcanvasWidth() {
-    const navItems = document.querySelectorAll('.offcanvas .nav-item');
-    let maxWidth = 0;
+// Запускаем загрузку контента после полной загрузки DOM
+document.addEventListener("DOMContentLoaded", () => {
+    const containers = [
+        { selector: '#header-container', url: 'header.html' },
+        { selector: '#footer-container', url: 'footer.html' }
+    ];
 
-    navItems.forEach(item => {
-        const itemWidth = item.offsetWidth;
-        if (itemWidth > maxWidth) {
-            maxWidth = itemWidth;
-        }
+    containers.forEach(container => {
+        loadContent(container.selector, container.url);
     });
-
-    const offcanvas = document.querySelector('.offcanvas');
-    if (offcanvas && maxWidth > 0) {
-        offcanvas.style.width = `${maxWidth + 50}px`; // Добавляем запас
-    }
-}
-
-document.addEventListener("DOMContentLoaded", async () => {
-    // Загружаем шапку и ждём, пока она загрузится
-    await loadContent('#header-container', 'header.html');
-    
-    // Загружаем подвал
-    loadContent('#footer-container', 'footer.html');
-
-    // После загрузки шапки устанавливаем ширину offcanvas
-    setOffcanvasWidth();
 });
