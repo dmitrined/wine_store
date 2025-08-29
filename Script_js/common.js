@@ -29,13 +29,7 @@ function createWineCard(wine) {
 
     return `
     <div class="card product-card my-2" id="wine_card" style="width: 18rem;">
-      <div class="d-flex justify-content-between p-2">
-        <span class="d-flex align-items-center">
-          <svg class="bi bi-star-fill text-warning" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.997-3.951-3.621c-.39-.357-.193-.942.302-1.012l5.421-.785 2.417-4.95a.75.75 0 0 1 1.36 0l2.417 4.95 5.421.785c.495.07.692.655.302 1.012l-3.951 3.621.83 4.997c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-          </svg>
-          <span class="ms-1">${wine.rating.toFixed(1)}</span>
-        </span>
+      <div class="d-flex justify-content-end p-2">
         ${heartSvg}
       </div>
       <img src="${wine.image}" class="card-img-top p-4" alt="${wine.name}">
