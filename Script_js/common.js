@@ -7,10 +7,12 @@ async function loadContent(elementSelector, url) {
         const html = await response.text();
         document.querySelector(elementSelector).innerHTML = html;
 
-        const path = window.location.pathname;
+        const currentPath = window.location.pathname.split('/').pop();
         const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
         navLinks.forEach(link => {
-            if (link.href.includes(path)) {
+            const linkPath = link.getAttribute('href');
+            if (linkPath === currentPath) {
                 link.classList.add('active');
                 link.setAttribute('aria-current', 'page');
             } else {
@@ -25,6 +27,12 @@ async function loadContent(elementSelector, url) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadContent('#header-container', 'header.html');
-    loadContent('#footer-container', 'footer.html');
+    const containers = [
+        { selector: '#header-container', url: 'header.html' },
+        { selector: '#footer-container', url: 'footer.html' }
+    ];
+
+    containers.forEach(container => {
+        loadContent(container.selector, container.url);
+    });
 });

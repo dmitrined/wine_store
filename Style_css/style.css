@@ -37,7 +37,9 @@ a {
     border-radius: 10px;
 }
 
-a:hover, a.active {
+a:hover,
+.header nav .navbar-nav .nav-link:hover, 
+a.active {
     color: var(--accent-color);
 }
 
@@ -111,10 +113,7 @@ a:hover, a.active {
     left: 50%;
     transform: translateX(-50%);
 }
-
-.header .navbar-nav .nav-link:hover, .header .navbar-nav .nav-link.active {
-    color: var(--accent-color);
-}
+ 
 
 .navbar-brand:hover img {
     max-width: 120px;
@@ -153,4 +152,35 @@ a:hover, a.active {
 .footer {
     border-top: 1px solid #323230;
     border-bottom: 1px solid #323230;
+}
+
+.about-us-section {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.about-us-title {
+    font-size: 2.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.about-us-description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: var(--grey-color);
+}
+
+.about-section-heading {
+    color: var(--text-color);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.about-us-section p {
+    color: var(--grey-color);
+    line-height: 1.6;
 }
