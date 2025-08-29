@@ -28,7 +28,7 @@ function createWineCard(wine) {
     `;
 
     return `
-    <div class="card product-card my-2" id="wine_card" style="width: 18rem;">
+    <div class="card product-card my-2" id="wine_card" style="width: 13rem;">
       <div class="d-flex justify-content-end p-2">
         ${heartSvg}
       </div>
@@ -117,5 +117,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Рендеринг карточек товаров. Этот вызов должен быть в конце.
-    renderWineCards('#sekt-and-secco-cards', './data/wines.json');
+    renderWineCards('#white_wine_cards', './data/wines.json');
 });

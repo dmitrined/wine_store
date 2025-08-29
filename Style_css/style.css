@@ -151,7 +151,7 @@ a.active {
     max-width: 50%;
 }
 
-.hero-section-content h1 {
+.h1 {
     font-size: 2em;
     font-weight: 900;
     text-transform: uppercase;
@@ -221,4 +221,14 @@ a.active {
 
 .image-container img:hover {
     transform: scale(1.05);
+}
+
+/* Wine Cards Section */
+.weis_cards {
+width: 90%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
 }
