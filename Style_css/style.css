@@ -124,14 +124,16 @@ a.active {
     margin: 50px !important;
 }
 
-.offcanvas {
+.offcanvas.offcanvas-start {
     width: 30% !important;
 }
+
 @media (max-width: 767px) {
-    .offcanvas {
-        width: 50% !important; 
+    .offcanvas.offcanvas-start {
+        width: 50% !important;
     }
 }
+
 
 .hero-section {
     background: url(../images/hero_img.jpg) no-repeat 70% center;
