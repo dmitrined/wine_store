@@ -1,158 +1,269 @@
-[
-  {
-    "id": 1,
-    "name": "2023 Goldberg Müller-Thurgau QbA feinherb",
-    "price": 23.99,
-    "volume": "0.75 L",
-    "edition": "Gutswein",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "1.0 L",
-    "edition": "EDITION C",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/009_Trollinger_feinherb_Gutswein_1L-1024x1536.png"
-  },
-
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/009_Trollinger_feinherb_Gutswein_1L-1024x1536.png"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/009_Trollinger_feinherb_Gutswein_1L-1024x1536.png"
-  },
-
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "0.75 L",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/009_Trollinger_feinherb_Gutswein_1L-1024x1536.png"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Gloria Ferrer Sonoma Brut",
-    "price": 23.99,
-    "volume": "750 mL",
-    "edition": "Gloria Ferrer",
-    "rating": 4.0,
-    "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg"
-  }
-
-]
+{
+  "weißweine": [
+    {
+      "id": 1,
+      "name": "2024 Riesling QbA feinherb",
+      "edition": "QbA",
+      "volume": "0,25 l",
+      "price": 2.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/112_Riesling_feinherb_025L.png",
+      "category": "weißweine"
+    },
+    {
+      "id": 2,
+      "name": "2024 Evento Weißweincuvée trocken",
+      "edition": "Evento",
+      "volume": "0,75 l",
+      "price": 5.60,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/119_Evento-Weiss.png",
+      "category": "weißweine"
+    },
+    {
+      "id": 3,
+      "name": "2024 Weißwein-Cuvée Gutswein QbA trocken",
+      "edition": "Gutswein",
+      "volume": "0,75 l",
+      "price": 5.70,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/124_Weissweincuve_Gutswein.png",
+      "category": "weißweine"
+    },
+    {
+      "id": 4,
+      "name": "2024 FEDERLE Weiß fruchtig",
+      "edition": "Edition V",
+      "volume": "0,75 l",
+      "price": 5.80,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/110_Federle_Weiss.png",
+      "category": "weißweine"
+    },
+    {
+      "id": 5,
+      "name": "2024 Riesling Gutswein QbA feinherb",
+      "edition": "Gutswein",
+      "volume": "1,0 l",
+      "price": 5.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/114_Riesling_Gutswein_feinherb.png",
+      "category": "weißweine"
+    },
+    {
+      "id": 6,
+      "name": "2023 Goldberg Müller-Thurgau QbA feinherb",
+      "edition": "Goldberg",
+      "volume": "0,75 l",
+      "price": 5.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/102_Mueller-Thurgau.png",
+      "category": "weißweine"
+    },
+    {
+      "id": 7,
+      "name": "2024 Kerner Gutswein QbA fruchtig",
+      "edition": "Gutswein",
+      "volume": "1,0 l",
+      "price": 5.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/104_Kerner_Gutswein.png",
+      "category": "weißweine"
+    },
+    {
+      "id": 8,
+      "name": "2024 Riesling Gutswein QbA trocken",
+      "edition": "Gutswein",
+      "volume": "1,0 l",
+      "price": 5.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/115_Riesling_Gutswein_trocken.png",
+      "category": "weißweine"
+    },
+    {
+      "id": 9,
+      "name": "2024 Chardonnay S trocken",
+      "edition": "Edition S",
+      "volume": "0,75 l",
+      "price": 10.50,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/133_Chardonnay-S.png",
+      "category": "weißweine"
+    },
+    {
+      "id": 10,
+      "name": "2024 Sauvignon Blanc P trocken",
+      "edition": "Edition P",
+      "volume": "0,75 l",
+      "price": 21.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/134_Sauvignon-Blanc_P.png",
+      "category": "weißweine"
+    },
+    {
+      "id": 11,
+      "name": "2023 Lämmler Riesling P trocken",
+      "edition": "Edition P",
+      "volume": "0,75 l",
+      "price": 14.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/118_Riesling-P.png",
+      "category": "weißweine"
+    }
+  ],
+  "rotweine": [
+    {
+      "id": 12,
+      "name": "2024 Trollinger – Lemberger Gutswein QbA feinherb",
+      "edition": "Gutswein",
+      "volume": "1,0 l",
+      "price": 6.30,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/203_Trollinger-Lemberger.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 13,
+      "name": "2023 Goldberg Schwarzriesling C fruchtig",
+      "edition": "Edition C",
+      "volume": "0,75 l",
+      "price": 6.70,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/222_Schwarzriesling_C.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 14,
+      "name": "2023 Pinot Noir C trocken",
+      "edition": "Edition C",
+      "volume": "0,75 l",
+      "price": 7.10,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/221_Pinot-Noir_C.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 15,
+      "name": "2023 Samtrot C fruchtig",
+      "edition": "Edition C",
+      "volume": "0,75 l",
+      "price": 7.50,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/215_Samtrot_C.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 16,
+      "name": "2023 Rotwein-Cuvée „Defensive“ trocken",
+      "edition": "VfB Stuttgart",
+      "volume": "0,75 l",
+      "price": 11.50,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/253_Rotweincuve_Defensive.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 17,
+      "name": "2022 Merlot S trocken",
+      "edition": "Edition S",
+      "volume": "0,75 l",
+      "price": 9.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/243_Merlot_S.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 18,
+      "name": "2022 Lämmler Trollinger C trocken",
+      "edition": "Edition C",
+      "volume": "0,75 l",
+      "price": 7.80,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/211_Laemmler_Trollinger_C.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 19,
+      "name": "2023 Trollinger Gutswein QbA trocken",
+      "edition": "Gutswein",
+      "volume": "1,0 l",
+      "price": 5.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/201_Trollinger_Gutswein.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 20,
+      "name": "2021 Lämmler Spätburgunder P trocken",
+      "edition": "Edition P",
+      "volume": "0,75 l",
+      "price": 14.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/225_Laemmler_Spaetburgunder_P.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 21,
+      "name": "2021 Lämmler Lemberger P trocken",
+      "edition": "Edition P",
+      "volume": "0,75 l",
+      "price": 14.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/232_Laemmler_Lemberger_P.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 22,
+      "name": "2021 Lämmler Spätburgunder P trocken Barrique",
+      "edition": "Edition P",
+      "volume": "0,75 l",
+      "price": 21.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/226_Laemmler_Spaetburgunder_P_Barrique.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 23,
+      "name": "2021 Lämmler >Amandus< P trocken Barrique",
+      "edition": "Edition P",
+      "volume": "0,75 l",
+      "price": 31.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/256_Laemmler_Amandus_P_Barrique.png",
+      "category": "rotweine"
+    },
+    {
+      "id": 24,
+      "name": "2021 Lämmler Merlot P trocken Magnum",
+      "edition": "Edition P",
+      "volume": "1,5 l",
+      "price": 38.00,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/244_Laemmler_Merlot_Magnum.png",
+      "category": "rotweine"
+    }
+  ],
+  "roséweine": [
+    {
+      "id": 25,
+      "name": "2024 Trollinger mit Lemberger weiß gekeltert Gutswein feinherb",
+      "edition": "Gutswein",
+      "volume": "0,75 l",
+      "price": 5.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/302_Trollinger-Lemberger_weissgekeltert_Gutswein.png",
+      "category": "roséweine"
+    },
+    {
+      "id": 26,
+      "name": "2024 Schwarzriesling Weißherbst C fruchtig",
+      "edition": "Edition C",
+      "volume": "0,75 l",
+      "price": 6.20,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/305_Schwarzriesling_Weissherbst_C.png",
+      "category": "roséweine"
+    },
+    {
+      "id": 27,
+      "name": "2024 Trollinger Rosé C trocken",
+      "edition": "Edition C",
+      "volume": "0,75 l",
+      "price": 6.00,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/301_Trollinger_Rose.png",
+      "category": "roséweine"
+    },
+    {
+      "id": 28,
+      "name": "2024 Cuvée Rosé C feinherb",
+      "edition": "Edition C",
+      "volume": "0,75 l",
+      "price": 6.20,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/304_Cuvee_Rose.png",
+      "category": "roséweine"
+    },
+    {
+      "id": 29,
+      "name": "2024 Lemberger Rosé C trocken",
+      "edition": "Edition C",
+      "volume": "0,75 l",
+      "price": 6.20,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/303_Lemberger_Rose.png",
+      "category": "roséweine"
+    }
+  ]
+}

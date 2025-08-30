@@ -17,10 +17,8 @@ async function loadContent(elementSelector, url) {
 function createWineCard(wine) {
     const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
     const isFavorite = favorites.includes(wine.id);
-    // Определяем начальный класс цвета
     const colorClass = isFavorite ? 'text-danger' : 'text-secondary';
     
-    // SVG-код для иконки
     const heartSvg = `
         <svg class="bi bi-heart-fill ${colorClass} clickable-icon" width="24" height="24" fill="currentColor" viewBox="0 0 16 16" data-product-id="${wine.id}">
           <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.735 3.562-3.248 8 1.314"/>
@@ -28,49 +26,62 @@ function createWineCard(wine) {
     `;
 
     return `
-    <div class="card product-card my-2 bg-dark text-white" id="wine_card" style="width: 14rem;">
+    <div class="card product-card my-2 bg-dark text-white d-flex flex-column" style="width: 14rem;">
       <div class="d-flex justify-content-end p-2">
         ${heartSvg}
       </div>
-      <img src="${wine.image}" class="card-img-top p-4" alt="${wine.name}">
-      <div class="card-body">
-        <h5 class="card-title">€${wine.price.toFixed(2)} | ${wine.volume}</h5>
-        <p class="card-text mb-0">${wine.edition}</p>
-        <p class="card-text fw-bold">${wine.name}</p>
-        <div class="d-grid mt-3">
-          <button class="btn btn-warning text-white" type="button">
-            <svg class="bi bi-cart-fill me-2" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.616l-.07-.354A.5.5 0 0 1 2 3H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7-1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-            </svg>
-            In den Warenkorb
-          </button>
-        </div>
+      <div class="card-content flex-grow-1">
+          <img src="${wine.image}" class="card-img-top p-4" alt="${wine.name}">
+          <div class="card-body">
+            <h5 class="card-title">€${wine.price.toFixed(2)} | ${wine.volume}</h5>
+            <p class="card-text mb-0">${wine.edition}</p>
+            <p class="card-text fw-bold">${wine.name}</p>
+          </div>
+      </div>
+      <div class="d-grid mt-3 p-3">
+        <button class="btn btn-warning text-white" type="button">
+          <svg class="bi bi-cart-fill me-2" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.616l-.07-.354A.5.5 0 0 1 2 3H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7-1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+          In den Warenkorb
+        </button>
       </div>
     </div>
     `;
 }
+
 // Функция для загрузки JSON-данных и рендеринга карточек
-async function renderWineCards(containerSelector, dataUrl) {
+async function renderWineCards(containerSelector, dataUrl, category = null) {
     try {
         const response = await fetch(dataUrl);
         if (!response.ok) {
             throw new Error(`Fehler beim Abrufen der Daten von ${dataUrl}: ${response.status} ${response.statusText}`);
         }
-        const wines = await response.json();
+        const winesData = await response.json();
         const container = document.querySelector(containerSelector);
 
         if (!container) {
-            console.warn(`Container mit dem Selektor '${containerSelector}' wurde nicht gefunden. Karten werden nicht gerendert.`);
+            console.warn(`Container with the selector '${containerSelector}' was not found. Cards will not be rendered.`);
             return;
+        }
+
+        let winesToRender = [];
+        if (category && winesData[category]) {
+            winesToRender = winesData[category];
+        } else {
+            for (const key in winesData) {
+                if (Array.isArray(winesData[key])) {
+                    winesToRender.push(...winesData[key]);
+                }
+            }
         }
         
         let cardsHtml = '';
-        wines.forEach(wine => {
+        winesToRender.forEach(wine => {
             cardsHtml += createWineCard(wine);
         });
 
         container.innerHTML = cardsHtml;
-        
         addHeartIconListeners();
     } catch (error) {
         console.error("Fehler beim Rendern der Weinkarten:", error.message);
@@ -88,12 +99,10 @@ function addHeartIconListeners() {
 
             if (favorites.includes(productId)) {
                 favorites = favorites.filter(id => id !== productId);
-                // Удаляем красный цвет, добавляем серый
                 icon.classList.remove('text-danger');
                 icon.classList.add('text-secondary');
             } else {
                 favorites.push(productId);
-                // Удаляем серый цвет, добавляем красный
                 icon.classList.remove('text-secondary');
                 icon.classList.add('text-danger');
             }
@@ -106,7 +115,6 @@ function addHeartIconListeners() {
 
 // Запускаем все функции после полной загрузки DOM
 document.addEventListener("DOMContentLoaded", () => {
-    // Загрузка статических HTML-файлов (header и footer)
     const containers = [
         { selector: '#header-container', url: 'header.html' },
         { selector: '#footer-container', url: 'footer.html' }
@@ -114,7 +122,8 @@ document.addEventListener("DOMContentLoaded", () => {
     containers.forEach(container => {
         loadContent(container.selector, container.url);
     });
-
-    // Рендеринг карточек товаров. Этот вызов должен быть в конце.
-    renderWineCards('#white_wine_cards', './data/wines.json');
+   
+    renderWineCards('#weissweine_cards', './data/wines.json', 'weißweine');
+    renderWineCards('#rotweine_cards', './data/wines.json', 'rotweine');
+    renderWineCards('#roseweine_cards', './data/wines.json', 'roséweine');
 });

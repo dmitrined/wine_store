@@ -151,7 +151,7 @@ a.active {
     max-width: 50%;
 }
 
-.h1 {
+.h1, .h2 {
     font-size: 2em;
     font-weight: 900;
     text-transform: uppercase;
@@ -224,7 +224,7 @@ a.active {
 }
 
 /* Wine Cards Section */
-.weis_cards {
+.wine_cards {
 width: 90%;
 margin: auto;
 display: flex;
