@@ -15,25 +15,25 @@
       "edition": "Evento",
       "volume": "0,75 l",
       "price": 5.60,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/119_Evento-Weiss.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2016/02/023_Evento_cuvee_weiss_neu-2.jpg",
       "category": "weißweine"
     },
     {
       "id": 3,
       "name": "2024 Weißwein-Cuvée Gutswein QbA trocken",
       "edition": "Gutswein",
-      "volume": "0,75 l",
+      "volume": "1,0 l",
       "price": 5.70,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/124_Weissweincuve_Gutswein.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/017_Weissweincuvee_trocken_Gutswein-1024x1536.png",
       "category": "weißweine"
     },
     {
       "id": 4,
       "name": "2024 FEDERLE Weiß fruchtig",
-      "edition": "Edition V",
+      "edition": "FEDERLE",
       "volume": "0,75 l",
       "price": 5.80,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/110_Federle_Weiss.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2016/03/027_Federle_weiss_fruchtig-5-1311x2048.jpg",
       "category": "weißweine"
     },
     {
@@ -42,7 +42,7 @@
       "edition": "Gutswein",
       "volume": "1,0 l",
       "price": 5.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/114_Riesling_Gutswein_feinherb.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/019_Riesling_feinherb_Gutswein_1L_oJ-1024x1536.png",
       "category": "weißweine"
     },
     {
@@ -51,7 +51,7 @@
       "edition": "Goldberg",
       "volume": "0,75 l",
       "price": 5.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/102_Mueller-Thurgau.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/021-Mueller_Thurgau_feinherb-2.jpg",
       "category": "weißweine"
     },
     {
@@ -60,7 +60,7 @@
       "edition": "Gutswein",
       "volume": "1,0 l",
       "price": 5.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/104_Kerner_Gutswein.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/016_Kerner_fruchtig_Gutswein_1L_oJ-1365x2048.jpg",
       "category": "weißweine"
     },
     {
@@ -69,7 +69,7 @@
       "edition": "Gutswein",
       "volume": "1,0 l",
       "price": 5.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/115_Riesling_Gutswein_trocken.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/022_Riesling_trocken_Gutswein-1365x2048.jpg",
       "category": "weißweine"
     },
     {
@@ -78,7 +78,7 @@
       "edition": "Edition S",
       "volume": "0,75 l",
       "price": 10.50,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/133_Chardonnay-S.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/075_Chardonnay_trocken_S-1024x1536.png",
       "category": "weißweine"
     },
     {
@@ -87,7 +87,7 @@
       "edition": "Edition P",
       "volume": "0,75 l",
       "price": 21.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/134_Sauvignon-Blanc_P.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2022/10/096_Sauvignon_Blanc_trocken_P-1024x1536.png",
       "category": "weißweine"
     },
     {
@@ -96,7 +96,7 @@
       "edition": "Edition P",
       "volume": "0,75 l",
       "price": 14.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/118_Riesling-P.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/091_Riesling_Laemmler_trocken_P_neu-2-1365x2048.jpg",
       "category": "weißweine"
     }
   ],
@@ -106,8 +106,8 @@
       "name": "2024 Trollinger – Lemberger Gutswein QbA feinherb",
       "edition": "Gutswein",
       "volume": "1,0 l",
-      "price": 6.30,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/203_Trollinger-Lemberger.png",
+      "price": 5.90,
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/014_Trollinger_Lemberger_feinherb_Gutswein_1L-1024x1536.png",
       "category": "rotweine"
     },
     {
@@ -116,7 +116,7 @@
       "edition": "Edition C",
       "volume": "0,75 l",
       "price": 6.70,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/222_Schwarzriesling_C.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/048_Schwarzriesling_Goldb_fruchtig_C-1024x1536.png",
       "category": "rotweine"
     },
     {
@@ -125,7 +125,7 @@
       "edition": "Edition C",
       "volume": "0,75 l",
       "price": 7.10,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/221_Pinot-Noir_C.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/059_Pinot_Noir_trocken_C-5-1365x2048.jpg",
       "category": "rotweine"
     },
     {
@@ -134,7 +134,7 @@
       "edition": "Edition C",
       "volume": "0,75 l",
       "price": 7.50,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/215_Samtrot_C.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/077_Samtrot_fruchtig_C-5.jpg",
       "category": "rotweine"
     },
     {
@@ -143,7 +143,7 @@
       "edition": "VfB Stuttgart",
       "volume": "0,75 l",
       "price": 11.50,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/253_Rotweincuve_Defensive.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/160_Defensive_neu_kl-768x1259.jpg",
       "category": "rotweine"
     },
     {
@@ -152,7 +152,7 @@
       "edition": "Edition S",
       "volume": "0,75 l",
       "price": 9.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/243_Merlot_S.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2016/04/079_Merlot_trocken_S_kl.jpg",
       "category": "rotweine"
     },
     {
@@ -161,7 +161,7 @@
       "edition": "Edition C",
       "volume": "0,75 l",
       "price": 7.80,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/211_Laemmler_Trollinger_C.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/037_Trollinger_Laemmler_trocken_C-3.jpg",
       "category": "rotweine"
     },
     {
@@ -170,7 +170,7 @@
       "edition": "Gutswein",
       "volume": "1,0 l",
       "price": 5.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/201_Trollinger_Gutswein.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/011_Trollinger_Schiefer_trocken-5.jpg",
       "category": "rotweine"
     },
     {
@@ -179,7 +179,7 @@
       "edition": "Edition P",
       "volume": "0,75 l",
       "price": 14.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/225_Laemmler_Spaetburgunder_P.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/109_Spaetburgunder_Laemmler_trocken_P-1.jpg",
       "category": "rotweine"
     },
     {
@@ -188,7 +188,7 @@
       "edition": "Edition P",
       "volume": "0,75 l",
       "price": 14.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/232_Laemmler_Lemberger_P.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/054_Lemberger_Laemmler-trocken_P-1-1024x1536.png",
       "category": "rotweine"
     },
     {
@@ -197,7 +197,7 @@
       "edition": "Edition P",
       "volume": "0,75 l",
       "price": 21.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/226_Laemmler_Spaetburgunder_P_Barrique.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/103_Spaetburgunder_Laemmler_trocken_Barique_P-3.jpg",
       "category": "rotweine"
     },
     {
@@ -206,7 +206,7 @@
       "edition": "Edition P",
       "volume": "0,75 l",
       "price": 31.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/256_Laemmler_Amandus_P_Barrique.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/127_Amandus_Laemmler_Barr_P-2-1365x2048.jpg",
       "category": "rotweine"
     },
     {
@@ -215,7 +215,7 @@
       "edition": "Edition P",
       "volume": "1,5 l",
       "price": 38.00,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/244_Laemmler_Merlot_Magnum.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2020/08/156_Magnum_15L_Merlot_P-2.jpg",
       "category": "rotweine"
     }
   ],
@@ -226,7 +226,7 @@
       "edition": "Gutswein",
       "volume": "0,75 l",
       "price": 5.90,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/302_Trollinger-Lemberger_weissgekeltert_Gutswein.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2024/03/010_Trollinger_Lemberger_weiss_gekeltert.jpg",
       "category": "roséweine"
     },
     {
@@ -235,7 +235,7 @@
       "edition": "Edition C",
       "volume": "0,75 l",
       "price": 6.20,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/305_Schwarzriesling_Weissherbst_C.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/033_Schwarzriesling_WH_fruchtig-1024x1536.png",
       "category": "roséweine"
     },
     {
@@ -244,7 +244,7 @@
       "edition": "Edition C",
       "volume": "0,75 l",
       "price": 6.00,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/301_Trollinger_Rose.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/034_Trollinger_Rose_trocken_C-1024x1536.png",
       "category": "roséweine"
     },
     {
@@ -253,7 +253,7 @@
       "edition": "Edition C",
       "volume": "0,75 l",
       "price": 6.20,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/304_Cuvee_Rose.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/036_Rose_feinherb_C-1.jpg",
       "category": "roséweine"
     },
     {
@@ -262,7 +262,7 @@
       "edition": "Edition C",
       "volume": "0,75 l",
       "price": 6.20,
-      "image": "https://fellbacher-weine.de/wp-content/uploads/2023/10/303_Lemberger_Rose.png",
+      "image": "https://fellbacher-weine.de/wp-content/uploads/2015/12/070_Lemberger_Rose_trocken_C-1024x1536.png",
       "category": "roséweine"
     }
   ]

@@ -108,7 +108,7 @@ function addHeartIconListeners() {
             }
 
             localStorage.setItem('favorites', JSON.stringify(favorites));
-            console.log("Список избранного:", favorites);
+            console.log("Favoritenliste:", favorites);
         });
     });
 }
